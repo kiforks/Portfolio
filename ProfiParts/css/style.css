@@ -5409,16 +5409,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   margin-bottom: 4%;
 }
 
-.main-contacts__map {
-  width: 100%;
-
-  font-family: "object-fit: cover";
-
-  -o-object-fit: cover;
-
-     object-fit: cover;
-}
-
 .main-contacts__map-link {
   position: absolute;
   right: 5%;
@@ -5437,11 +5427,58 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   display: none;
 }
 
+.main-contacts__map {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
 .main-contacts__map-box {
   position: relative;
 
   width: 60%;
   height: 435px;
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-contacts__map-box--vinnitsya {
+  background-image: url("../img/main/main-contacts/map-1.jpg");
+}
+
+.main-contacts__map-box--dnipro {
+  background-image: url("../img/main/main-contacts/map-2.jpg");
+}
+
+.main-contacts__map-box--kyiv {
+  background-image: url("../img/main/main-contacts/map-3.jpg");
+}
+
+.main-contacts__map-box--kyiv-2 {
+  background-image: url("../img/main/main-contacts/map-4.jpg");
+}
+
+.main-contacts__map-box--lviv {
+  background-image: url("../img/main/main-contacts/map-5.jpg");
+}
+
+.main-contacts__map-box--odessa {
+  background-image: url("../img/main/main-contacts/map-6.jpg");
+}
+
+.main-contacts__map-box--poltava {
+  background-image: url("../img/main/main-contacts/map-7.jpg");
+}
+
+.main-contacts__map-box--kharkiv {
+  background-image: url("../img/main/main-contacts/map-8.jpg");
+}
+
+.main-contacts__map-box--cherkasy {
+  background-image: url("../img/main/main-contacts/map-9.jpg");
 }
 
 .contacts-nav {
